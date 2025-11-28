@@ -2,7 +2,7 @@ import sqlite3
 
 class Conexion:
     def __init__(self):
-        self.conn = sqlite3.connect("base_datos/restaurante.db")
+        self.conn = sqlite3.connect("Proyecto Restaurante/base_datos/restaurante.db")
         self.conn.row_factory = sqlite3.Row  # Permite acceder por nombre a columnas
 
     def conectar(self):
